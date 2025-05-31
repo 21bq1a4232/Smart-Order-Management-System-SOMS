@@ -1,0 +1,42 @@
+# Large build artifacts - NEVER commit
+target/
+*.jar
+*.war
+*.ear
+*.class
+
+# Maven wrapper and metadata
+mvnw
+mvnw.cmd
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+._*
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+
+# Temp
+*.tmp
+*~
+
+# Environment
+.env
